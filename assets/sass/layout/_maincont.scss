@@ -1,0 +1,38 @@
+.maincont__title {
+    padding-top:40px;
+    padding-bottom: 20px;
+}
+
+.maincont {
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:40px;
+}
+
+.maincont__btn {
+    margin-top:20px
+}
+
+@media (min-width: 768px) {
+    .maincont__title {
+        font-size:$xxx-large;
+    }
+
+    .maincont {
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+    .maincont__text {
+        width:80%
+    }
+
+}
+@media (min-width: 992px) {
+    .maincont {
+        height:60vh
+    }
+
+
+
+}

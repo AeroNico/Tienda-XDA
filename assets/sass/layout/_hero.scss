@@ -1,0 +1,29 @@
+.hero__img {
+    height:40vh;
+    width:100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+    .hero {
+        grid-column-start:6;
+        grid-column-end:-1;
+    }
+
+    .content {
+        grid-column-start: 1;
+        grid-column-end:6;
+        grid-row-start: 1;
+    }
+
+    .hero__img {
+        height:95vh
+    }
+
+}
+

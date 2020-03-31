@@ -1,0 +1,13 @@
+.btn {
+    background-color:$white;
+    border-color:$smoky-black;
+    padding: 10px 20px;
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $bold;    
+
+    &:hover {
+        border-color:$light-gray;
+        
+    }
+}
